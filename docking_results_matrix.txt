@@ -1,0 +1,30 @@
+# ==============================================================================
+# AMDOCK GENERATED MOLECULAR DOCKING TARGET SUMMARY MATRIX
+# Target Receptor: fipA Homology Model (Virulence Factor)
+# Screening Ligand: Lupeol (Active Compound Validation Screen)
+# Core Run Mode: Simple Docking Pipeline via AutoDock Vina Engine
+# Search Space: User-Defined Grid Box (X: -12.10 | Y: 8.20 | Z: -18.80)
+# ==============================================================================
+
+ ______________________________________________________________________________ 
+
+|                                                                              |
+| RESULT FOR TARGET: fipA                                                      |
+|______________________________________________________________________________|
+|               |                |              |               |              |
+|     POSES     |    AFFINITY    | ESTIMATED Ki |    Ki UNITS   |   LIGAND     |
+|               |   (KCAL/MOL)   |              |               |  EFFICIENCY  |
+|_______________|________________|______________|_______________|______________|
+|       1       |      -8.2      |    975.81    |       nM      |    -0.26     |
+|       2       |      -7.2      |     5.28     |       uM      |    -0.23     |
+|       3       |      -7.0      |     7.40     |       uM      |    -0.23     |
+|       4       |      -6.8      |    10.37     |       uM      |    -0.22     |
+|       5       |      -6.7      |    12.27     |       uM      |    -0.22     |
+|       6       |      -6.7      |    12.27     |       uM      |    -0.22     |
+|       7       |      -6.7      |    12.27     |       uM      |    -0.22     |
+|       8       |      -6.5      |    17.20     |       uM      |    -0.21     |
+|       9       |      -6.2      |    28.53     |       uM      |    -0.20     |
+|       10      |      -6.2      |    28.53     |       uM      |    -0.20     |
+|_______________|________________|______________|_______________|______________|
+
+# Execution Run Complete via AMDock v.1.5.2 Workspace Protocol Tools.

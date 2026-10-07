@@ -1,0 +1,24 @@
+========================================================================
+OLIGONUCLEOTIDE SCREENING ARCHITECTURE FOR COHORT CHARACTERIZATION
+Target: 16S rRNA Identification & fipA Virulence Element Profiling
+========================================================================
+
+1.) Universal 16S-rRNA Primers (Cohort Amplicon Verification)
+------------------------------------------------------------------------
+Forward Primer:  5' - CTGTGAGAGAGCTTTGCGTC - 3'
+Reverse Primer:  5' - CGCAATACAGAGTTGAGCCC - 3'
+Expected Product Size: 393 bp
+Software Validation: Primer3web (Version 4.1.0) Baseline Settings
+
+2.) Gene-Specific fipA Virulence Element Assays (Target Pathogenic Screen)
+------------------------------------------------------------------------
+Forward Primer:  5' - CCAGGGGATTTAGGAGCTCA - 3'
+Reverse Primer:  5' - CCACCTCTTATTGCACCAGG - 3'
+Expected Product Size: 320 bp
+Software Validation: Primer3web (Version 4.1.0) Baseline Settings
+
+3.) Experimental Cohort Prevalence Yields (Verified Outputs)
+------------------------------------------------------------------------
+- Total Screening Population Size: N = 30 Clinical Specimen Cohorts
+- Baseline F. nucleatum Prevalence: 73.3% (Via 16S-rRNA Tracking)
+- High-Virulence Variant Prevalence: 54.54% (Via fipA PCR Amplification)

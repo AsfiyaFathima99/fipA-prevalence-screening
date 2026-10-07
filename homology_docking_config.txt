@@ -1,0 +1,33 @@
+# ========================================================================
+# HOMOLOGY MODELING AND VIRTUAL SCREENING PARAMETER GRID
+# Target Receptor: FipA Protein (Immunosuppressive Factor | G1 Phase Arrest)
+# Deployed Screening Ligand: Lupeol (Active Phytocompound Screen)
+# Software Suite: AMDock Version 1.5.2 Workflow Configuration
+# ========================================================================
+
+# Receptor Structural Homology Validation Parameters (Swiss-Model)
+target_sequence_length = 402 AA residues (Single Chain Architecture)
+template_sequence_identity = 95.02%
+structural_resolution_method = X-ray Diffraction, 1.89 Å
+global_model_quality_estimation (GMQE) = 0.97
+stereochemical_validation = Ramachandran Plot Verified Amino Acid Distribution
+
+# Receptor and Ligand Computational Input Paths
+receptor_source = NCBI_FASTA_Archive_Query -> Swiss-Model_Homology_Output
+receptor = structures/fipA.pdbqt
+ligand = ligands/lupeol.pdbqt
+
+# Search Space Coordinates (User-Defined Binding Pocket Matrix)
+center_x = -12.10
+center_y = 8.20
+center_z = -18.80
+
+# Grid Box Dimensions (Search Volume Bounding Boundaries in Angstroms)
+size_x = 20.0
+size_y = 20.0
+size_z = 20.0
+
+# Simulation Search Parameters
+exhaustiveness = 8
+num_modes = 10
+energy_range = 3.0
